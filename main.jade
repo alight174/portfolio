@@ -3,30 +3,39 @@ html(lang='ru')
 	head
 		meta(charset='UTF-8')
 		meta(http-equiv='X-UA-Compatible', content="IE=edge,chrome=1")
-		meta(name='viewport' content='width=device-width')
-		link(href="/dist/css/main.css" rel="stylesheet")
-		title
-			block title
+		meta(name='viewport' content='width=device-width, initial-scale=1')
+		link(href="css/main.css" rel="stylesheet")
+		title Личный Сайт Аркадия Конопли
+
 	body
-		.countainer
-			.about
-				.avatar
-					img.avatar-img
-				.name
-					h1.name-h1 Аркадий Конопля
-				.kto
-					h3.kto-h3 Веб-разработчик
-				.social
-					.vk-social.icon-social вк
-					.git-social.icon-social гит
-					.linced-social.icon-social линкед ин
-				.link-main
-					.link.link-works Мои работы
-					.link.link-about Обо Мне
-					.link.link-blog Блог
-			.auth-button Авторизация
-			.about
-				.form
+		.body
+			.header
+				.auth-button Авторизация
+				.clearfix
+			.container
+				.about
+					.verh
+						.avatar
+							img.avatar-img(src="images/avatar.jpg")
+						.name
+							h1.name-h1 Аркадий Конопля
+						.kto
+							h3.kto-h3 Веб-разработчик
+						.social
+							.icon-social
+								img.vk-social(src='images/vk.svg')
+							.icon-social 
+								img.github-social(src='images/github.svg')
+							.icon-social
+								img.in-social(src='images/in.svg')
+					.niz
+						.link-main
+							.link(class='link-works') Мои работы
+							.link(class='link-about') Обо Мне
+							.link(class='link-blog') Блог
+				.copy &copy Аркадий Конопля | 2017
+				.about(class='auth')
+					.form
 
 
 
