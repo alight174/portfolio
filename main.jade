@@ -10,7 +10,7 @@ html(lang='ru')
 	body
 		.body
 			.header
-				.auth-button Авторизация
+				a.auth-button(href="#") Авторизироваться
 				.clearfix
 			.container
 				.about
@@ -22,12 +22,12 @@ html(lang='ru')
 						.kto
 							h3.kto-h3 Веб-разработчик
 						.social
-							.icon-social
-								img.vk-social(src='images/vk.svg')
-							.icon-social 
-								img.github-social(src='images/github.svg')
-							.icon-social
-								img.in-social(src='images/in.svg')
+								a.icon-social(href="https://vk.com/arkonoplya")
+									img.vk-social(src='images/vk.svg')
+								a.icon-social(href="https://github.com/alight174/")
+									img.github-social(src='images/github.svg')
+								a.icon-social(href="#")
+									img.in-social(src='images/in.svg')
 					.niz
 						.link-main
 								a.a-link(href="#")

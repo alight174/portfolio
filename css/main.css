@@ -6,13 +6,13 @@ box-sizing: inherit;
 }
 .container{
 }
-h1, h1, .link, .copy{
+h1, h1, .link, .copy, .auth-button{
 	font-family: roboto;
 }
 .about {
 height: 394px;
 width: 380px;
-margin: 156px auto;
+margin: 120px auto;
 background: white;
 opacity: 0.85;
 border-radius: 3%;
@@ -28,7 +28,7 @@ margin-bottom: 113px;
 	background: no-repeat;
 	background-size: cover;
 	background-image: url(../images/background.png);
-	height: 732px;
+	height: 100%;
 }
 body{
 	padding: 0;
@@ -116,4 +116,18 @@ text-align: center;
 }
 a{
 	text-decoration: none;
+}
+.auth-button{
+	display: inline-block;
+	color: #fff;
+	padding: 15px 28px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+.auth-button:hover{
+	background: #fff;
+	color: #00bfa5;
 }
